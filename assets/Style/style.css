@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
     color:#fff;
-    background-color: #1c1616;
+    background-color: rgb(11, 13, 24);
     font-size: 1rem;
     line-height: 1.5;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -211,7 +211,7 @@ html {
     background-color:rgb(22, 2, 2);
     border-top:4px solid  hsl(0, 78%, 62%);
     border-radius: 5px;
-    box-shadow: 0 10px 20px 0 rgba(71, 126, 87, 0.2);
+    box-shadow: 0 5px 5px 0 rgb(131, 128, 128);
    color:#fff;
 }
 .card_orange {
@@ -220,7 +220,7 @@ html {
     background-color: black;
     border-top:4px solid hsl(34, 97%, 64%) ;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 0 rgba(120, 124, 158, 0.2);
+    box-shadow: 0 5px 5px 0 rgb(131, 128, 128);
     color:#fff;
   }
     
@@ -231,7 +231,7 @@ html {
     background-color: black;
     border-top:4px solid hsl(212, 86%, 64%);
     border-radius: 5px;
-    box-shadow: 0 10px 20px 0 hsl(234, 12%, 34%, 20%);
+    box-shadow: 0 5px 5px 0 rgb(131, 128, 128);
     align-self: center;
     color:#fff;
 }
@@ -311,6 +311,8 @@ html {
 }
 /*habilidades*/
 .skills {
+  max-width: 1024px;
+  margin: 0 auto;
     padding: 5rem 20px;
 }
 
@@ -358,11 +360,11 @@ html {
   grid-template-columns: repeat(3,1fr);
   padding-top: 100px;
   width: 96%;
+} 
   
  
   
 
-} 
 .experiencia-title {
   text-align: center;
   font-size: 2rem;
@@ -440,7 +442,7 @@ html {
         justify-content: center;
         justify-items: baseline;
         color: #fff;
-        margin-top: 200px;
+        margin-top: 5px;
     }
     
     footer p {
